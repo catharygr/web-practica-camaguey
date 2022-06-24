@@ -5,7 +5,7 @@
 body {
   background-color: rgb(223, 233, 225);
   font-family: 'Poppins', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   color: #222;
 }
 
@@ -38,18 +38,22 @@ main {
 }
 
 main h2 {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
+
 }
 
 .tarjetas {
   display: flex;
   justify-content: space-around;
+  gap: 2rem;
 }
 
 .tarjeta {
+  gap: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex: 1 1 0px;
 }
 
 .img-1 {
@@ -74,4 +78,29 @@ main h2 {
   background-image: url(./imagenes/plaza-de-los-trabajadores.jpg);
   background-size: cover;
   border-radius: 50%;
+}
+
+.sobre-mi {
+  display: flex;
+  gap: 4rem;
+  max-width: 60%;
+  margin: 0 auto;
+  padding-block: 4rem;
+  border-top: 1px solid rgb(121, 75, 82);
+  
+}
+
+.img-yo {
+  max-width: 150px;
+  border-radius: 10px;
+}
+
+.sobremi-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sobremi-texto > *:last-child {
+  align-self: flex-end;
 }
