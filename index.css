@@ -20,7 +20,7 @@ body {
 header {
   text-align: center;
   padding: 10rem 10rem;
-  background-image: url(/imagenes/Camaguey-aniversario.jpg);
+  background-image: url(./imagenes/Camaguey-aniversario.jpg);
   background-size: cover;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
